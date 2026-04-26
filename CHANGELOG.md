@@ -1,5 +1,18 @@
 # Change log
 
+### 0.18.2
+
+* Switch from using `pkg_resources` to `importlib.resources`: https://github.com/python-eel/Eel/pull/766
+
+### 0.18.1
+
+* Fix: Include `typing_extensions` in install requirements.
+
+### 0.18.0
+* Added support for MS Internet Explorer in #744.
+* Added supported for app_mode in the Edge browser in #744.
+* Improved type annotations in #683.
+
 ### 0.17.0
 * Adds support for Python 3.11 and Python 3.12
 
